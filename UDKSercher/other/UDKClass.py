@@ -92,4 +92,3 @@ class UDKList:
         for item in sublist:
             if item.next_reference is not None:
                 self.structurize_loaded_data_private(item.udk_sublist)
-

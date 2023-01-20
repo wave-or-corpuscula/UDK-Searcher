@@ -1,0 +1,33 @@
+{
+  "name": "Udo",
+  "children": [
+    {
+      "name": {
+        "hello": 1
+      },
+      "children": [
+        {
+          "name": {
+            "hello": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "hello": 3
+      },
+      "children": [
+        {
+          "name": "Jet"
+        },
+        {
+          "name": "Jan"
+        },
+        {
+          "name": "Joe"
+        }
+      ]
+    }
+  ]
+}
