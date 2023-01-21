@@ -1,1 +1,1 @@
-# from MainForm import MainClass
+# from .MainForm import MainFormClass

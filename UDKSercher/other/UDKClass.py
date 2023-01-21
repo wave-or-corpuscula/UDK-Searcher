@@ -71,7 +71,7 @@ class UDKList:
     def load_from_file(self, file_name: str):
         with open(file_name, "r") as file:
             self.data = json.load(file)
-            print(len(self.data))
+            # print(len(self.data))
             print(f"Data have loaded from {file_name} file!")
 
     def structurize_loaded_data(self):

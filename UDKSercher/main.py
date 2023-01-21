@@ -10,7 +10,7 @@ URL_TEMPLATE = "https://www.teacode.com/online/udc/index.html"
 def main():
     import sys
     headers = ["Код УДК", "Описание", "Число кодов", "Ссылка на следующий"]
-    file_name = "file_name.json"
+    file_name = "data/file_name.json"
     broken_links_file = "add_info/broken_links.txt"
     all_links = "add_info/all_links.txt"
     udk_ins = UDKList()
@@ -36,4 +36,6 @@ def main():
 
 
 if __name__ == "__main__":
+    # import os
+    # print (os.getcwd())
     main()
